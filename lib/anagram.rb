@@ -19,7 +19,7 @@ class Anagram
     word_array = word.split("").sort
     anagram_array.each do |element|
       if element.split("").sort == word_array
-        array << element
+        return_array << element
       end
     end
     return_array
