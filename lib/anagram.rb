@@ -14,9 +14,10 @@ class Anagram
   #If no matches exist, it should return an empty array.
   def match(anagram_array)
     array = []
-    word = word.split.sort
+    word_array = []
+    word_array = word.split.sort
     anagram_array.each do |element|
-      if element.split.sort == word
+      if element.split.sort == word_array
         array << element
       end
     end
