@@ -18,7 +18,6 @@ class Anagram
     word_array = []
     word_array = word.split("").sort
     anagram_array.each do |element|
-      binding.pry
       if element.split.sort == word_array
         array << element
       end
