@@ -22,7 +22,7 @@ class Anagram
         array << element
       end
     end
-    array
+    return_array
   end
 
 
