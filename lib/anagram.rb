@@ -7,6 +7,7 @@ class Anagram
 
 def initialize(word)
   @word = word
+end
 
 #takes an array of possible anagrams.
 #It should return all matches in an array.
